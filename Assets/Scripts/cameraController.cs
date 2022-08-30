@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class cameraController : MonoBehaviour
 {
+//agregando comentario enm el script cameraControll.
     public float Yaxis;
     public float Xaxis;
     public float rotationSensitivity = 0.5f;
