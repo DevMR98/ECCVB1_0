@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
+    
     public bool enableMobibleInputs = false;
     public FixedJoystick joystick;
     float currentVelocity;
