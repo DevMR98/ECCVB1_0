@@ -20,7 +20,7 @@ public class cameraMovement : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        distance=Quaternion.AngleAxis(touchField.TouchDist.x*2,Vector3.up)*distance;
+        distance=Quaternion.AngleAxis(touchField.TouchDist.x*4,Vector3.up)*distance;
         transform.position=player.transform.position+distance;
         transform.LookAt(player.transform.position);
 
