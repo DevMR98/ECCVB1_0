@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class barraVida : MonoBehaviour
 {
-
+    
     public Image barraDeVida;
     public int vidaMax;
     public float vidaActual;
