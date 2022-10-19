@@ -19,6 +19,7 @@ public class loadLevel : MonoBehaviour
         //permite cargar la siguiente escena d euna manera que no quite recursos a la scena actual
         AsyncOperation operacion=SceneManager.LoadSceneAsync(numeroE);
         pantallaCarga.SetActive(true);
+        Time.timeScale=1f;
 
         while(!operacion.isDone){
             float progreso=Mathf.Clamp01(operacion.progress/.9f);//fija un valor de 0 a 1

@@ -6,17 +6,7 @@ using UnityEngine.SceneManagement;
 public class pausaMenu : MonoBehaviour
 {
     public GameObject btnPausa,MenuP;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     public void pause(){
         //para detener el tiempo en el juego
@@ -29,6 +19,7 @@ public class pausaMenu : MonoBehaviour
         Time.timeScale=1f;
         btnPausa.SetActive(true);
         MenuP.SetActive(false);
+        //gameOver.SetActive(false);
     }
 
     public void mainMenu(){

@@ -1,9 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class characterController : MonoBehaviour
 {
+    public Image lifeBar;
+    public float maxLife=100f;
+    public float currentLife=100f;
+    //public GameObject gameOver;
+    //public bool Death=false;
+    
+
     public float movementVelocity=5.0f;
     public float rotationVelocity=200.0f;
     private Animator anim;
@@ -13,24 +21,28 @@ public class characterController : MonoBehaviour
     //Variable que definira si se juega en dispositivo movil o pc
     [HideInInspector]
     public ControllerType controller;
-    int cantidad_click; 
-    bool puedo_dar_click; 
+    int clickAmount; 
+    bool canGiveClick; 
 
     // Start is called before the first frame update
     void Start()
     {
         anim=GetComponent<Animator>();
-        cantidad_click = 0;
-        puedo_dar_click = true;
+        clickAmount = 0;
+        canGiveClick = true;
        
         
     }
     // Update is called once per frame
     void Update()
     {
-        if(controller==ControllerType.PC){
+    
+        if(controller==ControllerType.PC || controller==ControllerType.MOBILE){
             attackSword();
         }
+        
+        lifeBar.fillAmount=(currentLife/maxLife);
+        //death();
     }
     void FixedUpdate() {
             move();
@@ -51,7 +63,7 @@ public class characterController : MonoBehaviour
         anim.SetFloat("velX",x);
         anim.SetFloat("velY",y);
 
-        }else{
+        }else if(controller==ControllerType.MOBILE ){
             x=joystick.input.x;
             y=joystick.input.y;
 
@@ -65,62 +77,77 @@ public class characterController : MonoBehaviour
             transform.Translate(0,0,y*Time.deltaTime*movementVelocity);
         }
     }
-   
+//*************************************ATAQUE*******************************************
+
+
+
+
     
 
 //***************************COMBO DE ATAQUE*****************************************************
-     void Iniciar_combo(){
-        if (puedo_dar_click){
-            cantidad_click++;
+     void initComboo(){
+        if (canGiveClick){
+            clickAmount++;
         }
 
-        if (cantidad_click == 1){
+        if (clickAmount == 1){
             anim.SetInteger("attackSword", 1);
         }
     }
 
-    public void Verificar_combo(){
+    public void checkCombo(){
 
-        puedo_dar_click = false;
+        canGiveClick = false;
 
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 1") && cantidad_click == 1){
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack1") && clickAmount == 1){
             anim.SetInteger("attackSword", 0);
-            puedo_dar_click = true;
-            cantidad_click = 0;
+            canGiveClick = true;
+            clickAmount = 0;
         }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 1") && cantidad_click >= 2){       
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack1") && clickAmount >= 2){       
             anim.SetInteger("attackSword", 2);
-            puedo_dar_click = true;
+            canGiveClick = true;
         }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 2") && cantidad_click == 2){       
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack2") && clickAmount == 2){       
             anim.SetInteger("attackSword", 0);
-            puedo_dar_click = true;
-            cantidad_click = 0;
+            canGiveClick = true;
+            clickAmount = 0;
         }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 2") && cantidad_click >= 3){       
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack2") && clickAmount >= 3){       
             anim.SetInteger("attackSword", 3);
-            puedo_dar_click = true;
+            canGiveClick = true;
         }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 3")){      
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack3")){      
             anim.SetInteger("attackSword", 0);
-            puedo_dar_click = true;
-            cantidad_click = 0;
+            canGiveClick = true;
+            clickAmount = 0;
         }
     }
 
     public void attackSword(){
-        if (Input.GetKeyDown(KeyCode.Backspace)) { Iniciar_combo(); }
+        if (Input.GetKeyDown(KeyCode.Backspace)) { initComboo(); }
     }
     public void attackSwordMobile(){
-        Iniciar_combo();
+        initComboo();
     }
+
 
     public void OnTriggerEnter(Collider coll){
         if(coll.CompareTag("arma")){
-            print("prueba daño");
+            print("prueba daño"); 
+            currentLife-=5f; 
         }
-        
     }
+
+    public void death(){
+        if(currentLife<=0){
+            //anim.SetTrigger("death");
+            //gameOver.SetActive(true);
+            //Time.timeScale=0f;
+            //Death=true;
+        }
+    }
+
 
 
 
