@@ -10,10 +10,8 @@ public class characterController : MonoBehaviour
     public float currentLife=100f;
     //public GameObject gameOver;
     //public bool Death=false;
-    
-
-    public float movementVelocity=5.0f;
-    public float rotationVelocity=200.0f;
+    public float movementVelocity=8.5f;
+    public float rotationVelocity=400.0f;
     private Animator anim;
     //tomando porpiedades del joystick touch
     public FixedJoystick joystick;
@@ -21,6 +19,7 @@ public class characterController : MonoBehaviour
     //Variable que definira si se juega en dispositivo movil o pc
     [HideInInspector]
     public ControllerType controller;
+    //para el combo de ataque
     int clickAmount; 
     bool canGiveClick; 
 
