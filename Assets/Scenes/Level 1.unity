@@ -7661,7 +7661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 1
+  controller: 0
   player: {fileID: 64298150}
   mobileController: {fileID: 1489422694}
 --- !u!1001 &375530647
