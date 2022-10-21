@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - armaJugador
+  - arma
   layers:
   - Default
   - TransparentFX
