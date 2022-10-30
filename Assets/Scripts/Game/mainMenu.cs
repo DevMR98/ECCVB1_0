@@ -1,27 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class mainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
-    public GameObject option;
-    public bool menuOP = false;
 
-    public void close()
+    public void Close()
     {
         Application.Quit();
-        Debug.Log("Se cerro la aplicación");
+        Debug.Log("Salir");
     }
-
-    public void optionMenu()
-    {
-        option.SetActive(true);
-    }
-
-    public void regresar()
-    {
-        option.SetActive(false);
-    }
-
 }

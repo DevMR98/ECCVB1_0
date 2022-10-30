@@ -134,7 +134,7 @@ public class characterController : MonoBehaviour
     public void OnTriggerEnter(Collider coll){
         if(coll.CompareTag("arma")){
             print("prueba daño"); 
-            currentLife-=5f; 
+            currentLife-=1f; 
         }
     }
 
