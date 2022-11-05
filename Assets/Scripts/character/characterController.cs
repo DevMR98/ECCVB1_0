@@ -12,7 +12,7 @@ public class characterController : MonoBehaviour
     //public bool Death=false;
     public float movementVelocity=8.5f;
     public float rotationVelocity=400.0f;
-    private Animator anim;
+    public Animator anim;
     //tomando porpiedades del joystick touch
     public FixedJoystick joystick;
     float x,y;

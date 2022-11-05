@@ -31,9 +31,7 @@ public class enemyController : MonoBehaviour
     public float distanceAttack;
     public float sightRadius;
 
-    public int numEnemys;
-    public Text textEnemy;
-    public GameObject nextMision;
+ 
 
 
 
@@ -42,9 +40,6 @@ public class enemyController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         target = GameObject.Find("Cid");
-        numEnemys=0;
-        //muerte=FindObjectOfType<characterController>();
-        textEnemy.text="Derrota a todos los enemigos restan 3/"+numEnemys;
 
     }
 
@@ -54,14 +49,6 @@ public class enemyController : MonoBehaviour
         enemyBehaviour();
         enemyLife.fillAmount = (currentLife / maxLife);
         death();
-        textEnemy.text="Derrota a todos los enemigos restan 3/"+numEnemys;
-
-        if(numEnemys==3){
-            textEnemy.color=Color.yellow;
-            nextMision.SetActive(true);
-        }
-        
-
     }
 
    //comportamiento del enemigo
@@ -131,12 +118,10 @@ public class enemyController : MonoBehaviour
     {  
         if (currentLife <= 0)
         {
-            numEnemys+=1;
             Debug.Log("prueba");
             anim.SetTrigger("death");
-            Death = true;
-            Destroy(enemy, 7f);
-
+            //Death = true;
+            Destroy(enemy,5f);
             //gameOver.SetActive(true);
             //Time.timeScale=0f;
         }
