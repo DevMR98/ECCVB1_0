@@ -30238,20 +30238,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400990, guid: 2f4930b22c943444e856b508d62919b2, type: 3}
   m_PrefabInstance: {fileID: 694489167}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &555286148
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555286145}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.26869965
-  m_Height: 1.8366644
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.92356336, z: 0.057022095}
 --- !u!114 &555286149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30279,6 +30265,33 @@ MonoBehaviour:
   mission3: {fileID: 293848225}
   textMisssion2: {fileID: 1243413969}
   siguiente: {fileID: 910364119}
+--- !u!136 &555286150
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555286145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2352333
+  m_Height: 1.9295669
+  m_Direction: 1
+  m_Center: {x: -0, y: 0.9641988, z: -0}
+--- !u!135 &555286151
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555286145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 1, z: -0.02}
 --- !u!1001 &557229050
 PrefabInstance:
   m_ObjectHideFlags: 0
