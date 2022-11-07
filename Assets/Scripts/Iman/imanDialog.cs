@@ -1,22 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-public class dialogKingSancho : MonoBehaviour
+public class imanDialog : MonoBehaviour
 {
     public GameObject symbolMission;
     public characterController player;
     public GameObject panelNpc1;
     public GameObject panelNpc2;
-    public GameObject mission2;
-    public GameObject npcSancho;
+    public GameObject mission3;
+    public GameObject collToledo;
     //public GameObject panelNpcMission;
-    public TextMeshProUGUI textMission1;
+    public TextMeshProUGUI textMission2;
     public bool playerNear;
     public bool acceptMission;
-    public AudioSource dialogRS;
+    //public AudioSource dialogRA;
+    public Transform playerPosition;
+    public Animator anim;
+    
+
    
 
 
@@ -25,14 +28,12 @@ public class dialogKingSancho : MonoBehaviour
     void Start()
     {
         player=GameObject.FindGameObjectWithTag("Player").GetComponent<characterController>();
+        anim=GetComponent<Animator>();
         symbolMission.SetActive(true);
         panelNpc1.SetActive(false);
+        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
     public void acceptMissionButton(){
         if(!acceptMission){
@@ -50,14 +51,17 @@ public class dialogKingSancho : MonoBehaviour
 
     private void OnTriggerEnter(Collider other){
         if(other.tag=="Player"){
+            //kingAlfonso.enabled=false;
             playerNear=true;
             if(acceptMission==false){
                 panelNpc1.SetActive(true);
             }
+            
         }
     }
 
     private void OnTriggerExit(Collider other){
+        //kingAlfonso.enabled=false;
         if(other.tag=="Player"){
             playerNear=false;
             panelNpc1.SetActive(false);
@@ -79,12 +83,10 @@ public class dialogKingSancho : MonoBehaviour
         symbolMission.SetActive(false);
         panelNpc1.SetActive(false);
         panelNpc2.SetActive(false);
-        dialogRS.Play();
-        textMission1.color=Color.red;
+        //dialogRA.Play();
+        textMission2.color=Color.red;
         //textMission2.IsActive(true);
-        mission2.SetActive(true);
-        npcSancho.SetActive(true);
+        mission3.SetActive(true);
+        collToledo.SetActive(true);
     }
-
-    
 }

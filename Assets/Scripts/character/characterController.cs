@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class characterController : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class characterController : MonoBehaviour
     //para el combo de ataque
     int clickAmount; 
     bool canGiveClick; 
+    public GameObject panelFinishMission;
+    //public GameObject apple;
+    //public AudioSource audioFinal;
+    public GameObject finalMissionL2;
+    public TextMeshProUGUI textMission3;
+    public GameObject gameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +36,7 @@ public class characterController : MonoBehaviour
         anim=GetComponent<Animator>();
         clickAmount = 0;
         canGiveClick = true;
-       
+        
         
     }
     // Update is called once per frame
@@ -41,7 +48,7 @@ public class characterController : MonoBehaviour
         }
         
         lifeBar.fillAmount=(currentLife/maxLife);
-        //death();
+        deathPlayer();
     }
     void FixedUpdate() {
             move();
@@ -134,18 +141,25 @@ public class characterController : MonoBehaviour
     public void OnTriggerEnter(Collider coll){
         if(coll.CompareTag("arma")){
             print("prueba daño"); 
-            currentLife-=1f; 
+            currentLife-=10f; 
+        }
+        else if(coll.CompareTag("finishLevel")){
+            panelFinishMission.SetActive(true);
+            Time.timeScale=0f;
+            //audiofinal.Play();
+        }else if(coll.CompareTag("Toledo")){
+            finalMissionL2.SetActive(true);
+            textMission3.color=Color.red;
         }
     }
 
-    public void death(){
-        if(currentLife<=0){
-            //anim.SetTrigger("death");
-            //gameOver.SetActive(true);
-            //Time.timeScale=0f;
-            //Death=true;
+    public void deathPlayer(){
+        if(lifeBar.fillAmount==0){
+            gameOver.SetActive(true);
         }
     }
+
+    
 
 
 

@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.AI;
 using TMPro;
-
-public class enemyController : MonoBehaviour
+public class enemyControllerAlfonso : MonoBehaviour
 {
     //rutina dle enemigo
     public int routine;
@@ -23,16 +21,9 @@ public class enemyController : MonoBehaviour
     public Image enemyLife;
     public float maxLife = 100f;
     public float currentLife = 100f;
-    //public characterController muerte;
-    public bool Death = false;
     public GameObject enemy;
-    public GameObject mission3;
-    public TextMeshProUGUI textMisssion2;
-    public AudioSource siguiente;
 
  
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -113,18 +104,17 @@ public class enemyController : MonoBehaviour
         }
     }
 
+    
+
     public void death()
     {  
         if (currentLife <= 0)
         {
-            siguiente.Play();
-            mission3.SetActive(true);
-            textMisssion2.color=Color.red;
             Debug.Log("prueba");
             anim.SetTrigger("death");
-            Destroy(enemy,5f);
-            
+            Destroy(enemy,8f);   
+            //gameOver.SetActive(true);
+            //Time.timeScale=0f;
         }
     }
-
 }
