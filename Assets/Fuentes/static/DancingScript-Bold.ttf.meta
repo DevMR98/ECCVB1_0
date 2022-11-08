@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 100b621a1edaaa147b23f9f75f566c23
+guid: dd828fda86f09064db7138824ff72b68
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,9 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Dancing Script
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bd091f7c02d46a1439d598a69228bfba, type: 3}
+  - {fileID: 12800000, guid: 86a3c26274b032c44a737349f2b951a4, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

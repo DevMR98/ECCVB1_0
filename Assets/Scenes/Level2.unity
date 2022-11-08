@@ -245,7 +245,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFQuieres hablar con tu aliado?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_margin: {x: -80.51057, y: 0, z: -89.833694, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1700851
@@ -3697,7 +3697,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Actividades
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3761,7 +3761,7 @@ MonoBehaviour:
   m_margin: {x: -46.266483, y: 0, z: -55.797405, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &133824422
@@ -13660,8 +13660,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ver actividades
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15170,7 +15170,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cerrar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15234,7 +15234,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &601068591
@@ -15367,7 +15367,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vence a los 5 capitanes rebeldes.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15431,7 +15431,7 @@ MonoBehaviour:
   m_margin: {x: 11.650398, y: 0, z: -12.6443405, w: 2.564161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &601838625
@@ -24500,7 +24500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
+  controller: 1
   player: {fileID: 565676836}
   mobileController: {fileID: 1174725544}
 --- !u!4 &917933442
@@ -24734,7 +24734,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -29449,7 +29449,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toca para interactuar con el rey Alfonso
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -29513,7 +29513,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1107837758
@@ -30317,7 +30317,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: No
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -30381,7 +30381,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1133116393
@@ -31688,7 +31688,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ve hacia el campamento de carpas y escucha al Iman.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31752,7 +31752,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -13.779108, z: 9.688744, w: 4.685299}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1165634291
@@ -33778,7 +33778,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Terminaste todas las actividades bien hecho. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -33842,7 +33842,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 1.5296173, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1239630125
@@ -34449,7 +34449,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Si
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -34513,7 +34513,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1261830776
@@ -38108,7 +38108,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Men\xFA principal"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -38172,7 +38172,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 2.9512172}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1412112300
@@ -42085,7 +42085,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Acercate a tu aliado y escuchalo.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -42149,7 +42149,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -22.376503, w: 4.685299}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1583300565
@@ -43220,37 +43220,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 467750, guid: a5d47e9cdfeba484f8f8f62f424a717f, type: 3}
   m_PrefabInstance: {fileID: 1619784578}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1621858189
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1621858190}
-  m_Layer: 0
-  m_Name: Rebeldes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1621858190
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621858189}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -201.67624, y: -1.5721262, z: -149.91006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1622000880
 GameObject:
   m_ObjectHideFlags: 0
@@ -43311,7 +43280,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFQuieres hablar con el rey Alfonso?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -43375,7 +43344,7 @@ MonoBehaviour:
   m_margin: {x: -80.51057, y: 0, z: -89.833694, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1622000883
@@ -46812,7 +46781,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: No
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -46876,7 +46845,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1759970767
@@ -47621,7 +47590,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toca para interactuar con tu aliado.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -47685,7 +47654,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1773796864
@@ -49470,7 +49439,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Si
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -49534,7 +49503,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1796384386
@@ -49605,7 +49574,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Siguiente nivel
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -49669,7 +49638,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1797297908
@@ -50921,7 +50890,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continuar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -50985,7 +50954,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 2.9512172}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1864396008
@@ -51740,7 +51709,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cargando
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -56243,7 +56212,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Diridete a la ciudad de Toledo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -56307,7 +56276,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -81.30103, z: -24.721916, w: 58.730137}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2050470769

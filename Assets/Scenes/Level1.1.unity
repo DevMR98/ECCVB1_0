@@ -1350,7 +1350,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cerrar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &23965292
@@ -4768,6 +4768,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 74727454}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &74727457
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6004,7 +6006,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Si
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6068,7 +6070,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &76733046
@@ -6139,7 +6141,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Terminaste todas las actividades bien hecho. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6203,7 +6205,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 1.5296173, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &82217143
@@ -9489,6 +9491,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 151341744}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &151341747
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11443,7 +11447,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Haz sido derrotado.\xBFDeseas volver a intentar?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -11507,7 +11511,7 @@ MonoBehaviour:
   m_margin: {x: 11.330795, y: 0, z: 17.29903, w: 10.204494}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &206050038
@@ -13374,6 +13378,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 273793127}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &273793130
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14802,8 +14808,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ver actividades
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14827,8 +14833,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15021,6 +15027,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 288178436}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!95 &288178439 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9571248, guid: 7320372aefdc71442a2cf8b68a738f3b, type: 3}
@@ -15071,8 +15079,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ve por el rey Alfonos a la ciudad de Leon.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16386,8 +16394,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Acercate al rey Sancho y escuchalo.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17001,7 +17009,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFQuieres hablar con el rey Sancho?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17065,7 +17073,7 @@ MonoBehaviour:
   m_margin: {x: -80.51057, y: 0, z: -89.833694, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &339381405
@@ -17860,6 +17868,7 @@ MonoBehaviour:
   finalMissionL2: {fileID: 0}
   textMission3: {fileID: 0}
   gameOver: {fileID: 1012222648}
+  rebeldes: {fileID: 0}
 --- !u!95 &367607797 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9536352, guid: 359a3881d0d0e4143a67b57d6482e854, type: 3}
@@ -21014,6 +21023,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 421037802}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &421037805
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -29460,7 +29471,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: No
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -29524,7 +29535,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &538132819
@@ -32151,6 +32162,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 615654437}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &615654440
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33891,6 +33904,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 643945937}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &643945940
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -34126,8 +34141,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Actividades
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -34151,8 +34166,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -35673,6 +35688,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 681963950}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &681963953
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -36064,7 +36081,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toca para interactuar con el rey Sancho
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -36128,7 +36145,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &692836588
@@ -40699,7 +40716,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Toca para interactuar con el rey Alfonso
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -40763,7 +40780,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &803118948
@@ -45582,6 +45599,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 941380374}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &941380377
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -46492,6 +46511,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 962046424}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &962046427
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -50936,7 +50957,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFQuieres hablar con el rey Alfonso?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -51000,7 +51021,7 @@ MonoBehaviour:
   m_margin: {x: -80.51057, y: 0, z: -89.833694, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1032684449
@@ -51891,6 +51912,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 1052132968}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &1052132971
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -52393,6 +52416,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 1059150729}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &1059150732
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -54836,6 +54861,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 1137728723}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &1137728726
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -59216,8 +59243,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lucha con el caballero del rey Sancho.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -61753,7 +61780,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: No
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -61817,7 +61844,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1309280441
@@ -66236,7 +66263,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Siguiente nivel
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -66300,7 +66327,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1433715623
@@ -66449,7 +66476,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Si
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -66513,7 +66540,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1436220869
@@ -67947,7 +67974,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -70171,7 +70198,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Si
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -70235,7 +70262,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1507435835
@@ -72459,15 +72486,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Men\xFA principal"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -73186,7 +73213,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: No
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -73250,7 +73277,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1599744308
@@ -77791,6 +77818,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 1701904486}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &1701904489
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -85670,7 +85699,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cargando
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -88295,6 +88324,8 @@ MonoBehaviour:
   maxLife: 100
   currentLife: 100
   enemy: {fileID: 1914413018}
+  cont: 0
+  textFinalMissionL2: {fileID: 0}
 --- !u!136 &1914413021
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -90082,15 +90113,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continuar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278321666
+  m_fontColor: {r: 0.009433985, g: 0.00842532, b: 0.00842532, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92064,7 +92095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
+  controller: 1
   player: {fileID: 367607796}
   mobileController: {fileID: 411567216}
 --- !u!4 &1966849130
@@ -93728,8 +93759,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Regresa a la ciudad de Castilla con el rey Alfonso.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -93792,7 +93823,7 @@ MonoBehaviour:
   m_margin: {x: 11.650398, y: 0, z: -12.6443405, w: 2.564161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2002277081
