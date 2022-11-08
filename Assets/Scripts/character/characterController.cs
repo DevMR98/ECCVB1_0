@@ -29,6 +29,8 @@ public class characterController : MonoBehaviour
     public GameObject finalMissionL2;
     public TextMeshProUGUI textMission3;
     public GameObject gameOver;
+    public GameObject rebeldes;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -141,7 +143,7 @@ public class characterController : MonoBehaviour
     public void OnTriggerEnter(Collider coll){
         if(coll.CompareTag("arma")){
             print("prueba daño"); 
-            currentLife-=10f; 
+            currentLife-=2f; 
         }
         else if(coll.CompareTag("finishLevel")){
             panelFinishMission.SetActive(true);
@@ -150,6 +152,7 @@ public class characterController : MonoBehaviour
         }else if(coll.CompareTag("Toledo")){
             finalMissionL2.SetActive(true);
             textMission3.color=Color.red;
+            rebeldes.SetActive(true);
         }
     }
 

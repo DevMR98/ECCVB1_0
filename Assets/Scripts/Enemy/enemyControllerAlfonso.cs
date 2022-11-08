@@ -22,6 +22,8 @@ public class enemyControllerAlfonso : MonoBehaviour
     public float maxLife = 100f;
     public float currentLife = 100f;
     public GameObject enemy;
+    public int cont=0;
+    public TextMeshProUGUI textFinalMissionL2;
 
  
 
@@ -30,7 +32,6 @@ public class enemyControllerAlfonso : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         target = GameObject.Find("Cid");
-
     }
 
     // Update is called once per frame
@@ -39,6 +40,8 @@ public class enemyControllerAlfonso : MonoBehaviour
         enemyBehaviour();
         enemyLife.fillAmount = (currentLife / maxLife);
         death();
+        textFinalMissionL2.SetText("Derrota a los 5 rebeldes. Derrotados "+" "+cont+" de 5");
+        
     }
 
    //comportamiento del enemigo
@@ -101,20 +104,17 @@ public class enemyControllerAlfonso : MonoBehaviour
         {
             print("prueba daño del jugador");
             currentLife -= 20f;
+            
         }
     }
-
-    
 
     public void death()
     {  
         if (currentLife <= 0)
         {
-            Debug.Log("prueba");
+            Debug.Log("prueba"+cont++);
             anim.SetTrigger("death");
             Destroy(enemy,8f);   
-            //gameOver.SetActive(true);
-            //Time.timeScale=0f;
         }
     }
 }

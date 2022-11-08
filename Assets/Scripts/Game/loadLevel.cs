@@ -10,7 +10,6 @@ public class loadLevel : MonoBehaviour
 
     public void loadL(int numeroE){
         StartCoroutine(cargarAsync(numeroE));
-
     }
 
     //corrutina funcion que pausa su ejecucion para dar control a unity y continuar en el siguiente fram
