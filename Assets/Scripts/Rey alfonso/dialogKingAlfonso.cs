@@ -16,7 +16,7 @@ public class dialogKingAlfonso : MonoBehaviour
     public TextMeshProUGUI textMission3;
     public bool playerNear;
     public bool acceptMission;
-    //public AudioSource dialogRA;
+    public AudioSource dialogRA;
     public Transform playerPosition;
     public NavMeshAgent kingAlfonso;
     public bool whitin;
@@ -103,7 +103,7 @@ public class dialogKingAlfonso : MonoBehaviour
         symbolMission.SetActive(false);
         panelNpc1.SetActive(false);
         panelNpc2.SetActive(false);
-        //dialogRA.Play();
+        dialogRA.Play();
         textMission3.color=Color.red;
         //textMission2.IsActive(true);
         mission4.SetActive(true);

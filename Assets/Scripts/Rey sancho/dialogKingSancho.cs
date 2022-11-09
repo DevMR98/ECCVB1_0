@@ -86,5 +86,12 @@ public class dialogKingSancho : MonoBehaviour
         npcSancho.SetActive(true);
     }
 
+/*
+    IEnumerable activeAnim(){
+        yield return new WaitForSeconds(36);
+        Debug.Log("Prueba1234");
+        player.enabled=true;
+    }
+*/
     
 }

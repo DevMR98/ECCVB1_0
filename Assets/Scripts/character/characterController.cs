@@ -25,7 +25,7 @@ public class characterController : MonoBehaviour
     bool canGiveClick; 
     public GameObject panelFinishMission;
     //public GameObject apple;
-    //public AudioSource audioFinal;
+    public AudioSource audioFinal;
     public GameObject finalMissionL2;
     public TextMeshProUGUI textMission3;
     public GameObject gameOver;
@@ -148,7 +148,7 @@ public class characterController : MonoBehaviour
         else if(coll.CompareTag("finishLevel")){
             panelFinishMission.SetActive(true);
             Time.timeScale=0f;
-            //audiofinal.Play();
+            audioFinal.Play();
         }else if(coll.CompareTag("Toledo")){
             finalMissionL2.SetActive(true);
             textMission3.color=Color.red;

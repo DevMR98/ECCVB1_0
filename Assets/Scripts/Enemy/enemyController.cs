@@ -28,7 +28,9 @@ public class enemyController : MonoBehaviour
     public GameObject enemy;
     public GameObject mission3;
     public TextMeshProUGUI textMisssion2;
-    public AudioSource siguiente;
+    public AudioSource kingSanchoD2;
+    public bool d=false;
+
 
  
 
@@ -48,6 +50,10 @@ public class enemyController : MonoBehaviour
         enemyBehaviour();
         enemyLife.fillAmount = (currentLife / maxLife);
         death();
+
+        if(!d){
+            kingSanchoD2.Play();
+        }
     }
 
    //comportamiento del enemigo
@@ -117,12 +123,12 @@ public class enemyController : MonoBehaviour
     {  
         if (currentLife <= 0)
         {
-            siguiente.Play();
+            
+            d=true;
             mission3.SetActive(true);
             textMisssion2.color=Color.red;
-            Debug.Log("prueba");
             anim.SetTrigger("death");
-            Destroy(enemy,5f);
+            Destroy(enemy,22f);
             
         }
     }

@@ -6760,7 +6760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &279968241
 Transform:
   m_ObjectHideFlags: 0
@@ -14108,6 +14108,7 @@ MonoBehaviour:
   joystick: {fileID: 288219275}
   controller: 0
   panelFinishMission: {fileID: 119512256}
+  audioFinal: {fileID: 0}
   finalMissionL2: {fileID: 601838622}
   textMission3: {fileID: 2050470768}
   gameOver: {fileID: 0}
@@ -24500,7 +24501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 1
+  controller: 0
   player: {fileID: 565676836}
   mobileController: {fileID: 1174725544}
 --- !u!4 &917933442

@@ -40,7 +40,7 @@ public class enemyControllerAlfonso : MonoBehaviour
         enemyBehaviour();
         enemyLife.fillAmount = (currentLife / maxLife);
         death();
-        textFinalMissionL2.SetText("Derrota a los 5 rebeldes. Derrotados "+" "+cont+" de 5");
+        
         
     }
 
@@ -112,7 +112,10 @@ public class enemyControllerAlfonso : MonoBehaviour
     {  
         if (currentLife <= 0)
         {
+            
             Debug.Log("prueba"+cont++);
+            //textFinalMissionL2.SetText("Derrota a los 5 rebeldes. Derrotados "+" "+cont+" de 5");
+            //cont+=1;
             anim.SetTrigger("death");
             Destroy(enemy,8f);   
         }
