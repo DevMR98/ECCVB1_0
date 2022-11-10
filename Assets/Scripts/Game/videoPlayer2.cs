@@ -23,6 +23,6 @@ public class videoPlayer2 : MonoBehaviour
     void CheckOver(VideoPlayer vp){
         //gameObject.SetActive(false);
         panel.SetActive(true);
-        load.loadL(4);
+        load.loadL(5);
     }
 }

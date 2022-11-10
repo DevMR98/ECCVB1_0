@@ -17,4 +17,8 @@ public class contDead : MonoBehaviour
     {
         
     }
+
+    public void death(){
+        
+    }
 }

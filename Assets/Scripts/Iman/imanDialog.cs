@@ -15,7 +15,7 @@ public class imanDialog : MonoBehaviour
     public TextMeshProUGUI textMission2;
     public bool playerNear;
     public bool acceptMission;
-    //public AudioSource dialogRA;
+    public AudioSource dialogRA;
     public Transform playerPosition;
     public Animator anim;
     
@@ -83,7 +83,7 @@ public class imanDialog : MonoBehaviour
         symbolMission.SetActive(false);
         panelNpc1.SetActive(false);
         panelNpc2.SetActive(false);
-        //dialogRA.Play();
+        dialogRA.Play();
         textMission2.color=Color.red;
         //textMission2.IsActive(true);
         mission3.SetActive(true);

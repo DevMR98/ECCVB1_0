@@ -24,7 +24,7 @@ public class videPlayer : MonoBehaviour
     void CheckOver(VideoPlayer vp){
         //gameObject.SetActive(false);
         panel.SetActive(true);
-        load.loadL(2);
+        load.loadL(3);
     }
 }
        
