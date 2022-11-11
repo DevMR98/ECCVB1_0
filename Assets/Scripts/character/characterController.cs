@@ -30,6 +30,9 @@ public class characterController : MonoBehaviour
     public TextMeshProUGUI textMission3;
     public GameObject gameOver;
     public GameObject rebeldes;
+    public AudioSource aFinal2;
+    //public GameObject panelFinishMisionl2;
+    //public lsitGameObjects listEnemys;
   
 
     // Start is called before the first frame update
@@ -148,7 +151,6 @@ public class characterController : MonoBehaviour
         else if(coll.CompareTag("finishLevel")){
             panelFinishMission.SetActive(true);
             Time.timeScale=0f;
-            audioFinal.Play();
         }else if(coll.CompareTag("Toledo")){
             finalMissionL2.SetActive(true);
             textMission3.color=Color.red;
@@ -160,6 +162,10 @@ public class characterController : MonoBehaviour
         if(lifeBar.fillAmount==0){
             gameOver.SetActive(true);
         }
+    }
+
+    public void playHistory(){
+        audioFinal.Play();
     }
 
     

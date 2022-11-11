@@ -8,6 +8,7 @@ public class lsitGameObjects : MonoBehaviour
     public int enemiTotal;
     public GameObject final;
     public enemyControllerAlfonso enemy;
+    public AudioSource audioFinal;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +27,15 @@ public class lsitGameObjects : MonoBehaviour
         
         enemiTotal=enemiList.Length;
         enemy.textFinalMissionL2.SetText("Derrota a los 5 rebeldes. Restan "+enemiTotal);
-
+        
         if(enemiTotal==0){
             final.SetActive(true);
         }
-        
+    }
+
+    public void buttonHistory(){
+        if(enemiTotal==0){
+            audioFinal.Play();
+        }
     }
 }

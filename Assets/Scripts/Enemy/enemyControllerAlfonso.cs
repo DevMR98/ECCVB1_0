@@ -115,7 +115,7 @@ public class enemyControllerAlfonso : MonoBehaviour
             //textFinalMissionL2.SetText("Derrota a los 5 rebeldes. Derrotados "+" "+cont+" de 5");
             //cont+=1;
             anim.SetTrigger("death");
-            Destroy(enemy,8f);   
+            Destroy(enemy,4f);   
         }
     }
 }
