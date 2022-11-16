@@ -1267,7 +1267,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4120f52f98b61d54da94587819ba5dbf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0b42d0d2181242a4c94eba922afa6a1c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3833,7 +3833,7 @@ MonoBehaviour:
   m_text: Actividades
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5502,7 +5502,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b30410fb277c08439fb3fe95403b48c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6870,7 +6870,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fe53d74b99069b54b89dd5fa6fdc5563, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f3d0eb75dd634914b86c5f04e6608c6d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14741,7 +14741,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565676835}
   serializedVersion: 2
-  m_Mass: 50
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -15778,7 +15778,7 @@ MonoBehaviour:
   m_text: Cerrar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15949,7 +15949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 163, y: -316}
+  m_AnchoredPosition: {x: 163, y: -272}
   m_SizeDelta: {x: 301.3212, y: 65.61389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601838624
@@ -25189,7 +25189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 1
+  controller: 0
   player: {fileID: 565676836}
   mobileController: {fileID: 1174725544}
 --- !u!4 &917933442
@@ -26272,7 +26272,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0f6640d24b9c91d40bf0aab3a111dd0f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d056cc7f989face43b90b3b9dd61881b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -32724,7 +32724,7 @@ MonoBehaviour:
   m_text: Ve hacia el campamento de carpas y escucha al Iman.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32950,6 +32950,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.24404047, y: 1.1726315, z: 0.37811923}
   m_Center: {x: 0.000000038587796, y: 0.4623966, z: -0.022840055}
+--- !u!136 &1165996350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165996346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.12202024
+  m_Height: 0.89141375
+  m_Direction: 1
+  m_Center: {x: 0.000000023214271, y: 0.32178864, z: 0.0000000020643967}
 --- !u!1001 &1170067087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34853,6 +34867,10 @@ PrefabInstance:
     - target: {fileID: 189836, guid: cca9b8b9bbb59ce409c11aea054f6a9d, type: 3}
       propertyPath: m_Name
       value: NPC rebelde 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189836, guid: cca9b8b9bbb59ce409c11aea054f6a9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 474602, guid: cca9b8b9bbb59ce409c11aea054f6a9d, type: 3}
       propertyPath: m_RootOrder
@@ -43464,7 +43482,7 @@ MonoBehaviour:
   m_text: Acercate a tu aliado y escuchalo.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
-  m_sharedMaterial: {fileID: -5683100866762317684, guid: 6eebe470856344b458d37a06a74a4200, type: 2}
+  m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -45719,10 +45737,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.25385275
+  m_Radius: 0.44498903
   m_Height: 1.9012184
   m_Direction: 1
-  m_Center: {x: -5.1741378e-17, y: 0.9099977, z: 0.0119840205}
+  m_Center: {x: -0.008132279, y: 0.9099977, z: -0.032655597}
 --- !u!135 &1658431649
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47735,10 +47753,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.21886513
+  m_Radius: 0.4817487
   m_Height: 1.9121237
   m_Direction: 1
-  m_Center: {x: 0.062578656, y: 0.8987541, z: -0.04296419}
+  m_Center: {x: -0.021153748, y: 0.8987541, z: -0.044205427}
 --- !u!135 &1739922040
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57793,7 +57811,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 149, y: -306.11}
+  m_AnchoredPosition: {x: 149, y: -296}
   m_SizeDelta: {x: 266.1799, y: 45.8891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050470768
@@ -57816,7 +57834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Diridete a la ciudad de Toledo
+  m_text: Dirigete a la ciudad de Toledo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
