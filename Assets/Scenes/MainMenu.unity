@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Creditos
+  m_text: "Cr\xE9ditos"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
