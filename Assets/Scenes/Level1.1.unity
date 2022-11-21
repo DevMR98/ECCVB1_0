@@ -15392,7 +15392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ve por el rey Alfonso a la ciudad de Leon.
+  m_text: "Ve por el rey Alfonso a la ciudad de Le\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
