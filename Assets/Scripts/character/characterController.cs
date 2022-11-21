@@ -150,7 +150,7 @@ public class characterController : MonoBehaviour
         }
         else if(coll.CompareTag("finishLevel")){
             panelFinishMission.SetActive(true);
-            Time.timeScale=0f;
+            //Time.timeScale=0f;
         }else if(coll.CompareTag("Toledo")){
             finalMissionL2.SetActive(true);
             textMission3.color=Color.red;
