@@ -25189,7 +25189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
+  controller: 1
   player: {fileID: 565676836}
   mobileController: {fileID: 1174725544}
 --- !u!4 &917933442
@@ -29620,7 +29620,7 @@ Animator:
   m_GameObject: {fileID: 1074958577}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9fc9853f2b938c3448201543d38aac38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3e399feae4188a7448816facf006f4e7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -472,8 +472,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.9839, y: 39.7248}
-  m_SizeDelta: {x: 629.9456, y: 340.2494}
+  m_AnchoredPosition: {x: 10.9839, y: 24.6663}
+  m_SizeDelta: {x: 629.9456, y: 310.1323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40778544
 MonoBehaviour:
@@ -1646,7 +1646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 32, y: 113}
+  m_AnchoredPosition: {x: 22, y: 93}
   m_SizeDelta: {x: 321, y: 53.1108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346914342
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Objetivos especificos
+  m_text: Creditos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -1732,7 +1732,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 2.644308, w: 0}
+  m_margin: {x: 0, y: 0, z: 2.644308, w: 16.228806}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6246,8 +6246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 26}
-  m_SizeDelta: {x: 546.1981, y: 234.3044}
+  m_AnchoredPosition: {x: 22, y: 18.66}
+  m_SizeDelta: {x: 546.1981, y: 219.6281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705064908
 MonoBehaviour:
@@ -6269,18 +6269,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. Realizar una revisi\xF3n del estado del arte sobre los videojuegos
-    educativos y \r\nsus beneficios en la ense\xF1anza de la historia universal mediante
-    t\xE9cnicas de \r\ngamificaci\xF3n, para tener un antecedente de c\xF3mo desarrollar
-    un material \r\ngamificado como herramienta para el aprendizaje.\r\n2. Elaborar
-    un dise\xF1o instruccional sobre gamificaci\xF3n para la ense\xF1anza de la \r\nhistoria
-    universal sobre el caso de estudio del Cid Campeador. \r\n3. Generar un dise\xF1o
-    funcional bajo la metodolog\xEDa UML con base a los \r\nrequerimientos determinados
-    en el dise\xF1o instruccional, con la finalidad de \r\norganizar de forma correcta
-    el flujo de trabajo y dise\xF1ar la arquitectura prototipo \r\ndel proyecto.\r\n4.
-    Implementar con un motor gr\xE1fico, editores de imagen y dem\xE1s herramientas
-    \r\nuna aplicaci\xF3n para dispositivos m\xF3viles.\r\n5. Validar el proyecto
-    bajo la norma ISO 9126"
+  m_text: "M\xE9ndez Rodr\xEDguez Mario Miguel Programador\nAvila Baltazar Uriel
+    Dise\xF1ador\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -6307,8 +6297,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6343,7 +6333,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 8.883957, w: 0}
+  m_margin: {x: 0, y: 3.8971481, z: 8.883957, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7819,7 +7809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2064208945
 RectTransform:
   m_ObjectHideFlags: 0
