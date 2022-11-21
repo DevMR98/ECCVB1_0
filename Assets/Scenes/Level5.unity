@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7168,6 +7168,7 @@ MonoBehaviour:
   textMission3: {fileID: 0}
   gameOver: {fileID: 0}
   rebeldes: {fileID: 0}
+  aFinal2: {fileID: 0}
 --- !u!95 &882928700 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9536352, guid: 359a3881d0d0e4143a67b57d6482e854, type: 3}
@@ -16688,7 +16689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1138a5601c51014894eafaf2c567991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 1
+  controller: 0
   player: {fileID: 882928699}
   mobileController: {fileID: 105219261}
 --- !u!4 &2135913436
