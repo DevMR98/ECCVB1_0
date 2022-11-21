@@ -2725,9 +2725,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Universidad Aut\xF3noma del Estado de Hidalgo.\nInstituo de Ciencias B\xE1sicas
-    e Ingenier\xEDa.\nLicenciatura en Ciencias Computacionales\n\nDise\xF1o Intruccional\n\nDesarrolado
+    e Ingenier\xEDa.\nLicenciatura en Ciencias Computacionales\n\nDise\xF1o Instruccional\n\nDesarrolado
     por:\nMario Miguel M\xE9ndez Rodr\xEDguez\nUriel Avila Baltazar\n\nProfesor:
-    M. en .C Mariano Javier Pozas Cardenas\nFecha: 21 de noviembre del 2022\n\n\n\n\n"
+    M. en C. Mariano Javier Pozas C\xE1rdenas\nFecha: 21 de noviembre del 2022\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
