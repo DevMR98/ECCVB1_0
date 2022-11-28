@@ -548,8 +548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.987, y: 56}
-  m_SizeDelta: {x: 629.94, y: 263.199}
+  m_AnchoredPosition: {x: 24, y: 62}
+  m_SizeDelta: {x: 629.94, y: 322.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48752352
 MonoBehaviour:
@@ -571,9 +571,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M\xFAsica:\r\nJonathan Khaing \r\n\nVoces:\r\nMario Miguel M\xE9ndez Rodr\xEDguez
-    \r\nUriel Avila Baltazar\r\nFrancisco Daniel Aguilar Vel\xE1zquez \r\nJoaqu\xEDn
-    Ch\xE1vez Rangel\r\nPablo Hern\xE1n Mu\xF1oz Garc\xEDa  \r\n\n\n"
+  m_text: "Asesor de dise\xF1o instruccional:\nM.en C. Mariano Javier Pozas C\xE1rdenas\n\nM\xFAsica:\r\nJonathan
+    Khaing \r\n\nVoces:\r\nMario Miguel M\xE9ndez Rodr\xEDguez \r\nUriel Avila Baltazar\r\nFrancisco
+    Daniel Aguilar Vel\xE1zquez \r\nJoaqu\xEDn Ch\xE1vez Rangel\r\nPablo Hern\xE1n
+    Mu\xF1oz Garc\xEDa  \r\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -600,8 +601,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -636,7 +637,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.1158752, y: 3.8971481, z: 4.8049927, w: 10.225658}
+  m_margin: {x: 4.1158752, y: 30.647621, z: 4.8049927, w: 3.7865067}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1536,7 +1537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V. Alpha 1.0
+  m_text: V. Alpha 2.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -1783,7 +1784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 22, y: 81}
+  m_AnchoredPosition: {x: 22, y: 72}
   m_SizeDelta: {x: 321, y: 53.1108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346914342
@@ -1869,7 +1870,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 2.644308, w: 16.228806}
+  m_margin: {x: 0, y: -11.074133, z: 2.644308, w: 16.228806}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2118,7 +2119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 239, y: 3}
+  m_AnchoredPosition: {x: 231.1, y: -19.186}
   m_SizeDelta: {x: 546.1981, y: 219.6281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430561746
@@ -2142,7 +2143,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Assets: \r\nSynty Studios \r\nBonk! Studios\r\nFenerax Studios \r\nCarlos
-    Mauricio Gonz\xE1lez Castro\r\n\n\r\n\n"
+    Mauricio Gonz\xE1lez Castro\r\n\n\n\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -2205,7 +2206,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 3.8971481, z: 269.40372, w: 3.321392}
+  m_margin: {x: 0, y: -14.011147, z: 269.40372, w: 3.321392}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2725,9 +2726,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Universidad Aut\xF3noma del Estado de Hidalgo.\nInstituo de Ciencias B\xE1sicas
-    e Ingenier\xEDa.\nLicenciatura en Ciencias Computacionales\n\nDise\xF1o Instruccional\n\nDesarrolado
-    por:\nMario Miguel M\xE9ndez Rodr\xEDguez\nUriel Avila Baltazar\n\nProfesor:
-    M. en C. Mariano Javier Pozas C\xE1rdenas\nFecha: 21 de noviembre del 2022\n\n\n\n\n"
+    e Ingenier\xEDa.\nLicenciatura en Ciencias Computacionales\n\nProyecto computacional\n\nDesarrolado
+    por:\nMario Miguel M\xE9ndez Rodr\xEDguez\nUriel Avila Baltazar\n\nAsesor: M.C.C.
+    Gonzalo Alberto Torres Samperio\n\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -2862,7 +2863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V. Alpha 1.0
+  m_text: V. Alpha 2.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -4115,7 +4116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V. Alpha 1.0
+  m_text: V. Alpha 2.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -5610,7 +5611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Objetivo General
+  m_text: 'Nuestro objetivo:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
@@ -6521,7 +6522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 72, y: 1}
+  m_AnchoredPosition: {x: 72, y: -19.186}
   m_SizeDelta: {x: 546.1981, y: 219.6281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705064908
@@ -6609,7 +6610,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 3.8971481, z: 269.40372, w: 3.321392}
+  m_margin: {x: 0, y: -16.57589, z: 269.40372, w: 3.321392}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7643,7 +7644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V. Alpha 1.0
+  m_text: V. Alpha 2.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
   m_sharedMaterial: {fileID: 4435397811013540412, guid: 324dfb090217252438e85ffd5f5c70eb, type: 2}
